@@ -1,5 +1,5 @@
-pandas
-plotly
-streamlit
-numpy
-geopandas
+pandas==1.4.4
+plotly==5.10.0
+streamlit==1.20.0
+numpy==1.23.3
+geopandas==0.12.2
