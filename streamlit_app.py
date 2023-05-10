@@ -218,7 +218,7 @@ if st.session_state["but_state"] == True:
         if value_to_see != "Price compare to yearly salary in fold":
             year_list = list(range(1996,2023))
         else: year_list = list(range(2002,2022))
-        year_see = col_by.selectbox("Value to display on the map",year_list ,key="dropdown_3")
+        year_see = col_by.selectbox("Year",year_list ,key="dropdown_3")
 
         data_map = make_data_for_map(borough_data, value_to_see)
 
