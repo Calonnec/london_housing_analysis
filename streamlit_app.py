@@ -142,7 +142,7 @@ if st.session_state["but_state"] == False:
     #col1, col2 = st.columns(2)
 
     st.plotly_chart(fig_new_vs_exist)
-    st.plotly_chart(fig_new_vs_exist_rate)
+    #st.plotly_chart(fig_new_vs_exist_rate)
 
     st.markdown("""As we can see on the graph above, new builds in London are not cheaper that existing build. They can even been seen to be slightly more expensive recently.
                 So the only way new build can help with the rise of prices is to use them to increase the supply of available housing.""")
@@ -154,7 +154,7 @@ if st.session_state["but_state"] == False:
     #col3, col4 = st.columns(2)
 
     st.plotly_chart(fig_first_vs_former)
-    st.plotly_chart(fig_first_vs_former_rate)
+    #st.plotly_chart(fig_first_vs_former_rate)
 
     st.markdown("""As expected, first time buyer have a lower budget than former owners and consisitantly buy cheaper housing.
                 It is worth noting that first time buyer are paying more than £400000 in average since 2016 on their first home which is a substantial amount of money to find without having a property to sell.""")
@@ -167,6 +167,7 @@ if st.session_state["but_state"] == False:
 
     st.plotly_chart(fig_prop_type)
     st.plotly_chart(fig_trend_prop_price)
+    st.markdown("For reference")
     st.plotly_chart(fig_sales_volume)
     st.plotly_chart(fig_sal_london)
 
